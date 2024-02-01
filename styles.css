@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'font-card';
+    src: url('./assets/fonts/OCRAEXT.TTF');
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 200px;
+    padding: 40px 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    background: rgb(0,153,255);
+    background: linear-gradient(135deg, rgb(31, 75, 196) 10%, rgb(95, 17, 178) 30%, rgb(138, 58, 182) 80%);        
+    border-radius: 15px;
+    position: relative;
+}
+
+.card_logo {
+    position: absolute;
+    right: 20px;
+}
+
+.card_aproximation {
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.card_numbers {
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(78, 78, 78));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin: 20px 0px 0px 0px;
+    font-family: 'font-card', Courier, monospace;
+}
+
+.card_name {
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(78, 78, 78));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 15px 0px 0px 0px;
+    font-size: 1.7rem;
+    color: rgb(150, 150, 150);
+    font-family: 'font-card', Courier, monospace;
+}
+
+.card_valid_tru_description {
+    margin-top: 0px;
+}
+
+.card_valid_tru_text_description {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'font-card', Courier, monospace;
+}
+
+.card_valid_tru_date {
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(78, 78, 78));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+    font-size: 2rem;
+    color: rgb(150, 150, 150);
+    font-family: 'font-card', Courier, monospace;
+}
+
+.card_valid_tru {
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo_bandeira {
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
